@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corte de Materiais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Corte de Materiais</h1>
+        <div id="estoque" class="ambiente">
+            <h2>Estoque</h2>
+            <table id="tabelaEstoque">
+                <thead>
+                    <tr>
+                        <th>Comprimento (cm)</th>
+                        <th>Largura (cm)</th>
+                        <th>Quantidade</th>
+                        <th></th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="linha">
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="comprimento"></td>
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="largura"></td>
+                        <td><input type="number" min="0" name="quantidade"></td>
+                        <td><button class="btnExcluir">Excluir</button></td>
+                    </tr>
+                    <tr class="linha">
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="comprimento"></td>
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="largura"></td>
+                        <td><input type="number" min="0" name="quantidade"></td>
+                        <td><button class="btnExcluir">Excluir</button></td>
+                    </tr>
+                    <tr class="linha">
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="comprimento"></td>
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="largura"></td>
+                        <td><input type="number" min="0" name="quantidade"></td>
+                        <td><button class="btnExcluir">Excluir</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="paineis" class="ambiente">
+            <h2>Painéis</h2>
+            <table id="tabelaPaineis">
+                <thead>
+                    <tr>
+                        <th>Comprimento (cm)</th>
+                        <th>Largura (cm)</th>
+                        <th>Quantidade</th>
+                        <th></th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="linha">
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="comprimento"></td>
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="largura"></td>
+                        <td><input type="number" min="0" name="quantidade"></td>
+                        <td><button class="btnExcluir">Excluir</button></td>
+                    </tr>
+                    <tr class="linha">
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="comprimento"></td>
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="largura"></td>
+                        <td><input type="number" min="0" name="quantidade"></td>
+                        <td><button class="btnExcluir">Excluir</button></td>
+                    </tr>
+                    <tr class="linha">
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="comprimento"></td>
+                        <td><input type="number" placeholder="cm" min="0" step="0.1" name="largura"></td>
+                        <td><input type="number" min="0" name="quantidade"></td>
+                        <td><button class="btnExcluir">Excluir</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button id="btnIniciarCalculo">Iniciar Cálculo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
